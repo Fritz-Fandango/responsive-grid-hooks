@@ -37,14 +37,6 @@ function App() {
       {!loading
         && (
         <>
-          <Typography gutterBottom component="h3" variant="h3">
-            <Link href={data.company.url} color="inherit" target="_blank">
-              {data.company.company}
-            </Link>
-          </Typography>
-          <Typography gutterBottom component="p">
-            {data.company.text}
-          </Typography>
           <Grid
             container
             spacing={10}
